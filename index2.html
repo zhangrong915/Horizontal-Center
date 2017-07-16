@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>inline-block实现水平居中</title>
+    <style>
+    .main-wrap{
+        text-align:center;
+    }
+    .main-wrap .main{
+        display:inline-block;
+        background:#eee;
+    }
+    </style>
+</head>
+<body>
+    <div class="main-wrap">
+        <div class="main">
+            父元素中设置：text-align:center;<br />
+            在需要居中的元素中设置：display:inline-block;<br />
+            注意:在需要居中的元素中的文字居中显示了
+        </div>
+    </div>
+</body>
+</html>

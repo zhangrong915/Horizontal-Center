@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>浮动+定位实现水平居中</title>
+    <style>
+    .main-wrap{
+        float:left;
+        position:relative;
+        left:50%;
+    }
+    .main{
+        float:left;
+        clear:left;
+        position:relative;
+        right:50%;
+        width:600px;
+        background:#eee;
+    }
+    </style>
+</head>
+<body>
+    <div class="main-wrap">
+        <div class="main">
+            <p>父元素中设置:</p>
+            <p><code> float:left;</code></p>
+            <p><code> position:relative;</code></p>
+            <p><code> left:50%;</code></p>
+            <p>在子元素中设置：</p>
+            <p><code> float:left;</code></p>
+            <p><code> clear:left;</code></p>
+            <p><code> position:relative;</code></p>
+            <p><code> right:50%;</code></p>
+        </div>
+    </div>
+</body>
+</html>
